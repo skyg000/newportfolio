@@ -1,0 +1,282 @@
+.contact {
+    margin: 120px 0 0 50px;
+    text-align: left;
+    height: 80vh;
+
+    .group {
+        border: 1px solid white;
+        width: 50%;
+        padding: 50px;
+        border-radius: 30px;
+
+        h2 {
+            display: flex;
+            align-items: baseline;
+            font-size: 64px;
+            margin: 0px 0 50px 0px;
+        }
+
+        .pdf {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background: none;
+            border: none;
+            font-size: 20px;
+            padding-left: 50px;
+            color: white;
+        }
+
+        .down {
+            margin-left: 15px;
+            width: 30px;
+            background-color: black;
+        }
+
+        .cimg {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            margin-bottom: 30px;
+
+            img {
+                margin-right: 50px;
+            }
+
+            .mail {
+                display: flex;
+                align-items: center;
+                color: white;
+                list-style: none;
+            }
+
+            .git {
+                color: white;
+                list-style: none;
+            }
+        }
+    }
+}
+
+/* === media 1600 === */
+@media (max-width: 1600px) {
+    .contact {
+        margin: 120px 0 0 20px;
+        text-align: left;
+        height: 80vh;
+    
+        .group {
+            border: 1px solid white;
+            width: 70%;
+            padding: 50px;
+            border-radius: 30px;
+    
+            h2 {
+                display: flex;
+                align-items: baseline;
+                font-size: 64px;
+                margin: 0px 0 50px 0px;
+            }
+    
+            .pdf {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                background: none;
+                border: none;
+                font-size: 20px;
+                padding-left: 50px;
+                color: white;
+            }
+    
+            .down {
+                margin-left: 15px;
+                width: 30px;
+                background-color: black;
+            }
+    
+            .cimg {
+                display: flex;
+                align-items: center;
+                font-size: 25px;
+                margin-bottom: 30px;
+    
+                img {
+                    margin-right: 50px;
+                }
+    
+                .mail {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    list-style: none;
+                }
+    
+                .git {
+                    color: white;
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
+
+/* === media 1024 === */
+@media (max-width: 1024px) {
+    .contact {
+        margin: 120px 0 0 20px;
+        text-align: left;
+        height: 80vh;
+    
+        .group {
+            border: 1px solid white;
+            width: 85%;
+            padding: 50px;
+            border-radius: 30px;
+    
+            h2 {
+                display: flex;
+                align-items: baseline;
+                font-size: 64px;
+                margin: 0px 0 50px 0px;
+            }
+    
+            .pdf {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                background: none;
+                border: none;
+                font-size: 20px;
+                padding-left: 50px;
+                color: white;
+            }
+    
+            .down {
+                margin-left: 15px;
+                width: 30px;
+                background-color: black;
+            }
+    
+            .cimg {
+                display: flex;
+                align-items: center;
+                font-size: 25px;
+                margin-bottom: 30px;
+    
+                img {
+                    margin-right: 50px;
+                }
+    
+                .mail {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    list-style: none;
+                }
+    
+                .git {
+                    color: white;
+                    list-style: none;
+                }
+            }
+        }
+    }
+    
+}
+
+/* === media 780 === */
+@media (max-width: 780px) {
+    .contact {
+        margin: 120px 0 0 20px;
+        text-align: left;
+        height: 80vh;
+        .group {
+            border: 1px solid white;
+            width: 76%;
+            padding: 40px;
+            border-radius: 30px;
+    
+            h2 {
+                font-size: 30px;
+                align-items: flex-end;
+                margin: 0px 0 20px 0px
+            }
+    
+            .pdf {
+                font-size: 15px;
+                padding-left: 20px;
+                color: white;
+            }
+    
+            .down {
+                margin-left: 15px;
+                width: 30px;
+                background-color: black;
+            }
+    
+            .cimg {
+                font-size: 18px;
+                margin-bottom: 0px;
+    
+                img {
+                    margin-right: 50px;
+                }
+    
+                .mail {
+                }
+    
+                .git {
+                }
+            }
+        }
+    }
+}
+
+/* === media 480 === */
+@media (max-width: 480px) {
+    .contact {
+        margin: 120px 0 0 0px;
+        text-align: left;
+        height: 40vh;
+        .group {
+            border: 1px solid white;
+            width: 78%;
+            padding: 40px;
+            border-radius: 30px;
+    
+            h2 {
+                font-size: 30px;
+                align-items: flex-end;
+                margin: 0px 0 20px 0px
+            }
+    
+            .pdf {
+                font-size: 15px;
+                padding-left: 20px;
+                color: white;
+            }
+    
+            .down {
+                margin-left: 15px;
+                width: 30px;
+                background-color: black;
+            }
+    
+            .cimg {
+                font-size: 18px;
+                margin-bottom: 0px;
+    
+                img {
+                    margin-right: 50px;
+                }
+    
+                .mail {
+                }
+    
+                .git {
+                }
+            }
+        }
+    }
+}

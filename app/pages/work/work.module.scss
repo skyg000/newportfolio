@@ -1,0 +1,299 @@
+.title{
+    font-size: 50px;
+    margin: 10px 0 0 10px;
+}
+.mySwiper{
+    margin: 0 0px 200px 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid wheat;
+    height: 82vh;
+    .slide {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 70vh;
+        .worktitle{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            b{}
+            .workskilltxt{
+                color: white;
+            }
+        }
+        .progroup{
+            display: flex;
+            a{ width: 50%;
+                .img{
+                    width: 100%;
+                    height: 60vh;
+                    border: 0.3px solid white;
+                    border-radius: 20px;
+                }
+            }
+            .worktext{
+                margin: 0 0 0 50px;
+                width: 25%;
+                border: 1px solid white;
+                border-radius: 20px;
+                padding: 15px;
+                .produce{
+                    margin: 0;
+                }
+                .workskill{
+                    margin-bottom: 0;
+                }
+                .workskilltxt{}
+                .workplan{
+                    margin-bottom: 0;
+                }
+                .workplantxt{
+                    white-space: pre-line;
+                    word-break: keep-all;
+                }
+                .workes{
+                    margin-bottom: 0;
+                }
+                .link{
+                    .gitlink{
+                        a{
+                            color: white;
+                            list-style: none;
+                        }
+                    }
+                    .workurl{
+                        a{
+                            color: white;
+                            list-style: none;
+                        }
+                    }
+                }
+            }
+        }
+        .workplantxt{}
+    }
+}
+/* === media 1600 === */
+@media (max-width: 1600px) {
+    .title{
+        margin: 10px 0 0 10px;
+    }
+    .mySwiper{
+        padding-bottom: 100px;
+        height: 77vh;
+        .slide {
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height:70vh;
+            .worktitle{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                b{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .workskilltxt{
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .progroup{
+                .worktext{
+                    width: 40%;
+            }
+            .workplantxt{
+                width: 100%;
+            }
+        }
+        }
+    }
+}
+/* === media 1024 === */
+@media (max-width: 1024px) {
+    .title{
+        margin: 10px 0 0 10px;
+    }
+    .mySwiper{
+        padding-bottom: 100px;
+        height: 77vh;
+        .slide {
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 75vh;
+            .worktitle{
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                b{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .workskilltxt{
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .progroup{
+                .worktext{
+                    width: 40%;
+            }
+            .workplantxt{
+                width: 100%;
+            }
+        }
+    }
+}
+}
+/* === media 780 === */
+@media (max-width: 780px) {
+    .title{
+        margin: 10px 0 0 10px;
+    }
+    .mySwiper{
+        padding-bottom: 100px;
+        margin: 0;
+        padding: 10px 0;
+        height: 125vh;
+        .slide {
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 110vh;
+            transform: none;
+            .worktitle{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                b{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .workskilltxt{
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .progroup{
+                display: block;
+               
+                .img{
+                    width: 100%;
+                    height: 55vh;
+                    border: 1px solid white;
+                    margin-bottom: 10px;
+                }
+                .worktext{
+                    margin: 10px ;
+                    width: 94%;
+                    .produce{
+                        margin: 0;
+                    }
+                    .workskill{margin-bottom: 0;}
+                    .workskilltxt{margin: 0;}
+                    .workplan{margin-bottom: 0;}
+                    .workplantxt{
+                        white-space: pre-line;
+                        word-break: keep-all;
+                    }
+                    .workres{margin-bottom: 0;}
+                    .workplanrestxt{margin: 0;}
+                    .link{
+                        .gitlink{
+                            a{
+                                color: white;
+                                list-style: none;
+                            }
+                        }
+                        .workurl{
+                            a{
+                                color: white;
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .workplantxt{margin: 0;}
+        }
+    }
+}
+/* === media 480 === */
+@media (max-width: 480px) {
+    .title{
+        margin: 10px 0 0 10px;
+    }
+    .mySwiper{
+        padding-bottom: 130px;
+        margin: 0;
+        height: 115vh;
+        .slide {
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 115vh;
+            transform: none;
+            .worktitle{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                b{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                .workskilltxt{
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .progroup{
+                display: block;
+                .img{
+                    width: 100%;
+                    height: 55vh;
+                    border: 1px solid white;
+                    margin-bottom: 10px;
+                }
+                .worktext{
+                    margin: 10px 0 ;
+                    width: 92%;
+                    .produce{
+                        margin: 0;
+                    }
+                    .workskill{margin-bottom: 0;}
+                    .workskilltxt{margin: 0;}
+                    .workplan{margin-bottom: 0;}
+                    .workplantxt{
+                        white-space: pre-line;
+                        word-break: keep-all;
+                    }
+                    .workres{margin-bottom: 0;}
+                    .workplanrestxt{margin: 0;}
+                    .link{
+                        .gitlink{
+                            a{
+                                color: white;
+                                list-style: none;
+                            }
+                        }
+                        .workurl{
+                            a{
+                                color: white;
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .workplantxt{margin: 0;}
+        }
+    }
+}

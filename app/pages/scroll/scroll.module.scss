@@ -1,0 +1,41 @@
+.header{
+    width: 98%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    a{
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+}
+/* === media 1600 === */
+@media (max-width: 1600px) {
+
+}
+/* === media 1024 === */
+@media (max-width: 1024px) {
+
+}
+/* === media 780 === */
+@media (max-width: 780px) {
+    .header{
+        width: 100%;
+        justify-content: center;
+        a{
+            font-size: 1.2rem;
+            margin: 15px 10px;
+        }
+    }
+}
+/* === media 480 === */
+@media (max-width: 480px) {
+    .header{
+        width: 95%;
+        justify-content: center;
+        a{
+            font-size: 1.2rem;
+            margin: 15px 10px;
+        }
+    }
+}

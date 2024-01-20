@@ -1,0 +1,308 @@
+
+.about{
+    margin:  0px;
+    height: 99vh;
+    background-color: #000000;
+    border-bottom: 1px solid wheat;
+    h1{
+        color: white;
+        font-size: 50px;
+        margin: 20px 30px 20px 10px;
+    }
+    .total{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 150px 10px;
+        .myimg{
+            margin-right: 50px;
+            padding: 0 50px 0 0;
+            .img{
+                width: 400px;
+                border-radius: 40px;
+                opacity: 0.8;
+            }
+        }
+        .text{
+            padding: 0 10rem 0px;
+            .introduce{
+                .introtext{
+                    margin: 0;
+                    font-size: 24px;
+                    white-space: pre-line;
+                    word-break: keep-all;
+                    .txtcolor{
+                        color: red;
+                        background:linear-gradient(to top, yellow 50%,transparent 50%);
+                        text-emphasis: 'v' rgb(255, 0, 157);
+                    }
+                }
+            }
+            .edu{
+                h3{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                ul{
+                    padding-left: 15px;
+                    li{
+                        list-style: none;
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .cer{
+                h3{
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                ul{
+                    padding-left: 15px;
+                    li{
+                        list-style: none;
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .aboutfoot{
+                font-size: 24px;
+            }
+        }
+    }
+}
+/* === media 1600 === */
+@media (max-width: 1600px) {
+    .about{
+        margin: 0 ;
+        height: 99vh;
+        h1{
+            font-size: 50px;
+            margin: 20px 30px 20px 10px;
+        }
+        .total{
+            display: flex;
+            margin: 0 0 150px 10px;
+            .myimg{
+                margin-right: 0px;
+                padding: 0 ;
+                .img{
+                    width: 350px;
+                }
+            }
+            .text{
+                padding: 0 40px 0 60px;
+                margin: 0 ;
+                .introduce{
+                    .introtext{
+                        margin: 0px;
+                        font-size: 18px;
+                    }
+                }
+                .edu{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .cer{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .aboutfoot{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+/* === media 1024 === */
+@media (max-width: 1024px) {
+    .about{
+        margin: 0 ;
+        height: 100vh;
+        h1{
+            font-size: 50px;
+            margin: 20px 30px 20px 10px;
+        }
+        .total{
+            display: block;
+            margin: 0 30px 20px 10px;
+            .myimg{
+                margin-right: 0px;
+                padding: 0 ;
+                .img{
+                    width: 350px;
+                }
+            }
+            .text{
+                padding: 0 ;
+                .introduce{
+                    .introtext{
+                        margin: 20px 0;
+                        font-size: 18px;
+                    }
+                }
+                .edu{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .cer{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .aboutfoot{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+/* === media 780 === */
+@media (max-width: 780px) {
+    .about{
+        margin: 0;
+        height: 100vh;
+        h1{
+            font-size: 50px;
+            margin: 20px 30px 20px 10px;
+        }
+        .total{
+            display: block;
+            margin: 0 30px 20px 10px;
+            .myimg{
+                margin-right: 0px;
+                padding: 0 ;
+                .img{
+                    width: 350px;
+                }
+            }
+            .text{
+                padding: 0 ;
+                .introduce{
+                    .introtext{
+                        margin: 20px 0;
+                        font-size: 18px;
+                    }
+                }
+                .edu{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .cer{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .aboutfoot{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+/* === media 480 === */
+@media (max-width: 480px) {
+    .about{
+        margin: 0 ;
+        height: 113vh;
+        h1{
+            font-size: 50px;
+            margin: 20px 30px 20px 10px
+        }
+        .total{
+            display: block;
+            margin: 0 30px  20px 10px;
+            .myimg{
+                margin-right: 0px;
+                padding: 0 ;
+                .img{
+                    width: 350px;
+                }
+            }
+            .text{
+                padding: 0 ;
+                .introduce{
+                    .introtext{
+                        margin: 20px 0;
+                        font-size: 18px;
+                    }
+                }
+                .edu{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .cer{
+                    h3{
+                        font-size: 20px;
+                    }
+                    ul{
+                        li{
+                            p{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                .aboutfoot{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
