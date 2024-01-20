@@ -63,7 +63,7 @@ export default function App() {
                         <p className={swSt.workskilltxt}> HTML / SCSS / NEXT.JS </p>
                     </div>
                     <div className={swSt.progroup}>
-                        <Link href="https://github.com/skyg000/portfolio" target="_blank">
+                        <Link href="https://hshportfolio.vercel.app/" target="_blank">
                             <img src="../img/work/portfolio/main.png" className={swSt.img}/>
                         </Link>
                         <div className={swSt.worktext}>
@@ -80,11 +80,11 @@ export default function App() {
                             <hr/>
                             <p className={swSt.workplanrestxt}> 기획 / 디자인 / 전체 페이지 제작</p>
                         <div className={swSt.link}>
-                            <p className={swSt.gitlink}> <Link href="https://github.com/skyg000/portfolio" target="_blank">
-                                GitHub 링크 <br/> https://github.com/skyg000/portfolio</Link> 
+                            <p className={swSt.gitlink}> <Link href="https://github.com/skyg000/newportfolio" target="_blank">
+                                GitHub 링크 <br/> https://github.com/skyg000/newportfolio</Link> 
                             </p>
-                            <p className={swSt.workurl}> <Link href="https://hshportfolio.netlify.app/" target="_blank">
-                                배포 링크 <br/> https://hshportfolio.netlify.app/</Link> 
+                            <p className={swSt.workurl}> <Link href="https://hshportfolio.vercel.app/" target="_blank">
+                                배포 링크 <br/> https://hshportfolio.vercel.app/</Link> 
                             </p>
                         </div>
                         </div>
