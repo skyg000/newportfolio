@@ -68,6 +68,7 @@ function RandomBalls() {
 
         // Cleanup
         return () => {
+            
             document.removeEventListener('mousemove', handleMouseMove);
             document.removeEventListener('mouseleave', handleMouseLeave);
         };
