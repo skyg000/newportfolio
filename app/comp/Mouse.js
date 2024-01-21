@@ -26,7 +26,7 @@ function RandomBalls() {
             if (mousePos.x > 0 && mousePos.y > 0) {
                 const range = 1;
 
-                const color = `rgb(${getRandomInt(255,0,255)}, ${getRandomInt(255,0,255)}, ${getRandomInt(255,0,255)})`;
+                const color = `rgb(${getRandomInt(255,255)}, ${getRandomInt(0,255)}, ${getRandomInt(0,255)})`;
 
                 const sizeInt = getRandomInt(10, 10);
                 const size = `height: ${sizeInt}px; width: ${sizeInt}px;`;
